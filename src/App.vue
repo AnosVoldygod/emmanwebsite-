@@ -1,6 +1,7 @@
 <script setup>
 import WelcomeSection from './components/WelcomeSection.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import ProffSummary from './components/ProffSummary.vue'
 </script>
 
 <template>
@@ -8,7 +9,8 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <WelcomeSection msg="Welcome" username="Emmanuel Berkowicz" />
+      <WelcomeSection username="Emmanuel Berkowicz" />
+      <ProffSummary />
     </div>
   </header>
 
