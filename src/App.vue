@@ -12,6 +12,15 @@ import TheWelcome from './components/TheWelcome.vue'
     </div>
   </header>
 
+  <!-- ✅ Ensure <nav> is properly structured
+  <nav>
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+  </nav>
+
+  ✅ Ensure <router-view> is properly placed -->
+  <!-- <router-view></router-view> -->
+
   <main>
     <TheWelcome />
   </main>
