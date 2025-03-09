@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import WelcomeSection from './components/WelcomeSection.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
@@ -8,18 +8,9 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="Emmanuel Berkowicz!" />
+      <WelcomeSection msg="Welcome" username="Emmanuel Berkowicz" />
     </div>
   </header>
-
-  <!-- ✅ Ensure <nav> is properly structured
-  <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
-  </nav>
-
-  ✅ Ensure <router-view> is properly placed -->
-  <!-- <router-view></router-view> -->
 
   <main>
     <TheWelcome />
