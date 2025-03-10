@@ -1,6 +1,5 @@
 <script setup>
 import WelcomeSection from './components/WelcomeSection.vue'
-import TheWelcome from './components/TheWelcome.vue'
 import ProfSummary from './components/ProfSummary.vue'
 </script>
 
