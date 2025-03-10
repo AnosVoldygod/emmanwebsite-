@@ -8,7 +8,7 @@ const goToTroll = () => {
 
 <template>
   <div>
-    <h1>Profesional Summary</h1>
+    <h1>Professional Summary</h1>
     <p>I am an engineer and I do engineering things!</p>
     <button class="btn" @click="goToTroll">Go on<br />Click me</button>
     <button class="btn" style="margin: 0.25cm" @click="additionalPoints = !additionalPoints">
