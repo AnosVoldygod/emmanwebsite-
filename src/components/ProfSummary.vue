@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from 'vue'
+let additionalPoints = ref(false)
 const goToTroll = () => {
   window.location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
 }
@@ -9,6 +11,20 @@ const goToTroll = () => {
     <h1>Profesional Summary</h1>
     <p>I am an engineer and I do engineering things!</p>
     <button class="btn" @click="goToTroll">Go on<br />Click me</button>
+    <button class="btn" style="margin: 0.25cm" @click="additionalPoints = !additionalPoints">
+      Point<br />Toggle
+    </button>
+  </div>
+  <div class="points" v-if="additionalPoints">
+    <h2>Additional Things</h2>
+    <p>Here I will post some other things?</p>
+    <ul>
+      <li>1. The thing</li>
+      <li>2. The thing</li>
+      <li>3. The thing</li>
+      <li>4. The thing</li>
+      <li>5. The thing</li>
+    </ul>
   </div>
 </template>
 

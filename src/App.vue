@@ -20,7 +20,6 @@ import ProfSummary from './components/ProfSummary.vue'
   </header>
 
   <main>
-    <h1>If you see this, the router is broken.</h1>
     <router-view></router-view>
   </main>
 </template>
