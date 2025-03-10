@@ -1,7 +1,7 @@
 <script setup>
 import WelcomeSection from './components/WelcomeSection.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import ProffSummary from './components/ProffSummary.vue'
+import ProfSummary from './components/ProfSummary.vue'
 </script>
 
 <template>
@@ -10,12 +10,18 @@ import ProffSummary from './components/ProffSummary.vue'
 
     <div class="wrapper">
       <WelcomeSection username="Emmanuel Berkowicz" />
-      <ProffSummary />
+      <ProfSummary />
+
+      <nav>
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link>
+      </nav>
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <h1>If you see this, the router is broken.</h1>
+    <router-view></router-view>
   </main>
 </template>
 

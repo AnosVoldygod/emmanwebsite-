@@ -15,9 +15,9 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
       <DocumentationIcon />
     </template>
     <template #heading>HEADING 1</template>
-    <P>
+    <p>
       This is a random box of text that I am using to test the new component that I have created.
-    </P>
+    </p>
   </WelcomeItem>
 
   <WelcomeItem>

@@ -6,7 +6,7 @@ const goToTroll = () => {
 
 <template>
   <div>
-    <h1>Proffesional Summary</h1>
+    <h1>Profesional Summary</h1>
     <p>I am an engineer and I do engineering things!</p>
     <button class="btn" @click="goToTroll">Go on<br />Click me</button>
   </div>
