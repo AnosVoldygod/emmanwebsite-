@@ -15,7 +15,9 @@
         </h5>
         <p class="card-text">
           Lo, this merry contrivance doth but one thing, craft insults in the Bard’s tongue. For
-          common taunts are far too base!
+          common taunts are far too base! <br />
+          Perchance thou art a knave, a scoundrel, or a miscreant? Then this tool is for thee!<br />
+          But alas, thout shall have to draw upon thy patience, for the code is not yet complete.
         </p>
         <a href="#" class="btn btn-primary">Generate Thy Insult</a>
       </div>
