@@ -1,3 +1,4 @@
+<script scoped></script>
 <template>
   <header>
     <div class="projects">
@@ -7,14 +8,14 @@
 
   <main>
     <div class="card" style="width: 18rem">
-      <img alt="Vue logo" class="logo" src="../assets/hipspeare.jpg" width="125" height="125" />
+      <img alt="Vue logo" class="logo" src="../assets/hipspeare.jpg" width="200" height="200" />
       <div class="card-body">
         <h5 class="card-title" style="text-align: center; color: black; font-family: cursive">
           Shakespeare Insult Generator
         </h5>
         <p class="card-text">
-          This is a silly application which does what you'd expect, generates an insult in a
-          Shakespearean vernacular. You know, because regular insults are just to plebeian now.
+          Lo, this merry contrivance doth but one thing, craft insults in the Bard’s tongue. For
+          common taunts are far too base!
         </p>
         <a href="#" class="btn btn-primary">Generate Thy Insult</a>
       </div>
@@ -25,5 +26,12 @@
 <style scoped>
 .projects {
   color: antiquewhite;
+}
+.card {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  background-color: aquamarine;
+  border-color: black;
 }
 </style>
