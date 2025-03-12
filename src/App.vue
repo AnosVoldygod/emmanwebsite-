@@ -13,7 +13,7 @@ import ProfSummary from './components/ProfSummary.vue'
       <nav class="nav">
         <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
         <router-link to="/info">Info</router-link> |
-        <router-link to="/projects">Projects</router-link>
+        <router-link to="/ForFun">For Fun</router-link>
       </nav>
     </div>
   </header>

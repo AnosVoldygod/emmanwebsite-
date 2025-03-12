@@ -16,7 +16,7 @@ export default {
 <template>
   <header>
     <div class="projects">
-      <h1 style="text-align: center">LIST OF PROJECTS GO HERE</h1>
+      <h1 style="text-align: center">THINGS I'VE DONE IN MY SPARE TIME</h1>
     </div>
   </header>
 
