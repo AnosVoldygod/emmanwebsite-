@@ -11,7 +11,8 @@ const goToTroll = () => {
     <h1>Professional Summary</h1>
     <p>I am an engineer and I do engineering things!</p>
     <button class="btn" @click="goToTroll">Go on<br />Click me</button>
-    <button class="btn" style="margin: 0.25cm" @click="additionalPoints = !additionalPoints">
+
+    <!-- <button class="btn" style="margin: 0.25cm" @click="additionalPoints = !additionalPoints">
       Point<br />Toggle
     </button>
   </div>
@@ -25,6 +26,7 @@ const goToTroll = () => {
       <li>4. The thing</li>
       <li>5. The thing</li>
     </ul>
+  </div> -->
   </div>
 </template>
 
