@@ -1,8 +1,15 @@
 <script scoped>
 import { fullInsult } from '../shakespeare.js'
 export default {
+  data() {
+    return {
+      fullInsult: '',
+    }
+  },
   methods: {
-    fullInsult,
+    async generateInsult() {
+      this.fullInsult = await fullInsult() // Update the reactive data
+    },
   },
 }
 </script>
@@ -26,9 +33,9 @@ export default {
           Perchance thou art a knave, a scoundrel, or a miscreant? Then this tool is for thee!<br />
           But alas, thout shall have to draw upon thy patience, for the code is not yet complete.
         </p>
-        <button class="btn btn-primary" @click="fullInsult">Generate Thy Insult</button>
+        <button class="btn btn-primary" @click="generateInsult">Generate Insult</button>
         <div class="card">
-          <div class="card-body">This will be the insult</div>
+          <div class="card-body">{{ fullInsult }}</div>
         </div>
       </div>
     </div>
