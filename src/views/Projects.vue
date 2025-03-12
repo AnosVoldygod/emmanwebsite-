@@ -30,8 +30,7 @@ export default {
         <p class="card-text">
           Lo, this merry contrivance doth but one thing, craft insults in the Bard’s tongue. For
           common taunts are far too base! <br />
-          Perchance thou art a knave, a scoundrel, or a miscreant? Then this tool is for thee!<br />
-          But alas, thout shall have to draw upon thy patience, for the code is not yet complete.
+          Perchance thou art a knave, a scoundrel, or a miscreant? Then this tool is for thee!
         </p>
         <button class="btn btn-primary" @click="generateInsult">Generate Insult</button>
         <div class="card">
