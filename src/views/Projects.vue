@@ -1,4 +1,11 @@
-<script scoped></script>
+<script scoped>
+import { fullInsult } from '../shakespeare.js'
+export default {
+  methods: {
+    fullInsult,
+  },
+}
+</script>
 <template>
   <header>
     <div class="projects">
@@ -19,7 +26,10 @@
           Perchance thou art a knave, a scoundrel, or a miscreant? Then this tool is for thee!<br />
           But alas, thout shall have to draw upon thy patience, for the code is not yet complete.
         </p>
-        <a href="#" class="btn btn-primary">Generate Thy Insult</a>
+        <button class="btn btn-primary" @click="fullInsult">Generate Thy Insult</button>
+        <div class="card">
+          <div class="card-body">This will be the insult</div>
+        </div>
       </div>
     </div>
   </main>
