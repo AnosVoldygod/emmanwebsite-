@@ -1,5 +1,5 @@
 export function getInsultOne() {
-  return fetch('/InsultOne.txt')
+  return fetch('/InsultTextFiles/InsultOne.txt')
     .then((response) => response.text())
     .then((data) => {
       const insultArrayOne = data.split('\n').filter((line) => line.trim() !== '')
@@ -12,7 +12,7 @@ export function getInsultOne() {
 }
 
 export function getInsultTwo() {
-  return fetch('/InsultTwo.txt')
+  return fetch('/InsultTextFiles/InsultTwo.txt')
     .then((response) => response.text())
     .then((data) => {
       const insultArrayTwo = data.split('\n').filter((line) => line.trim() !== '')
@@ -25,7 +25,7 @@ export function getInsultTwo() {
 }
 
 export function getInsultThree() {
-  return fetch('/InsultThree.txt')
+  return fetch('/InsultTextFiles/InsultThree.txt')
     .then((response) => response.text())
     .then((data) => {
       const insultArrayThree = data.split('\n').filter((line) => line.trim() !== '')
@@ -38,7 +38,7 @@ export function getInsultThree() {
 }
 
 export function getPreInsult() {
-  return fetch('/PreInsult.txt')
+  return fetch('/InsultTextFiles/PreInsult.txt')
     .then((response) => response.text())
     .then((data) => {
       const preInsultArray = data.split('\n').filter((line) => line.trim() !== '')
