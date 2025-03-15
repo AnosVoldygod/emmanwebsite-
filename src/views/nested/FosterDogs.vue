@@ -22,7 +22,7 @@
       width="800"
       height="800"
     />
-    <div>
+    <!-- <div>
       <table class="table">
         <thead>
           <tr>
@@ -32,7 +32,7 @@
             <th scope="col">Image</th>
           </tr>
         </thead>
-        <tbody class="table-group-divider">
+        <tbody class="table-group-divider" style="vertical-align: middle">
           <tr>
             <th scope="row">1</th>
             <td>Blondie</td>
@@ -41,9 +41,9 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Tango</td>
+            <td>Head on lap lover</td>
+            <td><img src="../../assets/FosterDogs/Tango.jpg" height="150" width="150" /></td>
           </tr>
           <tr>
             <th scope="row">3</th>
@@ -52,7 +52,7 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </div> -->
   </main>
 </template>
 
