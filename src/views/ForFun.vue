@@ -8,7 +8,7 @@ import shakespeareInsults from '../components/ShakespeareInsult.vue'
       <h1 style="text-align: center">THINGS I'VE DONE IN MY SPARE TIME</h1>
     </div>
     <nav class="nav">
-      <router-link to="/ForFun/FosterDogs">FosterDogs</router-link>
+      <router-link to="/ForFun/fosterdogs">FosterDogs</router-link>
     </nav>
   </header>
 
