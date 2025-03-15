@@ -58,7 +58,7 @@ export async function fullInsult() {
     const insult3 = await getInsultThree()
 
     const fullInsultString = `${pre} ${insult1} ${insult2} ${insult3}`
-    console.log(fullInsultString)
+    //console.log(fullInsultString)
     return fullInsultString
   } catch (error) {
     console.error('Error generating full insult:', error)
