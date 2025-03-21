@@ -1,16 +1,38 @@
+<script setup>
+import { ref } from 'vue'
+</script>
+
 <template>
-  <div class="login">
-    <h1>About Page</h1>
-    <p>
-      I am an engineer with a passion for technology and continuous learning. My strategic and
-      analytical mindset, drawn from my love for chess and puzzles, drives my approach to
-      problem-solving. I chose engineering for its logical foundations and the opportunity it
-      provides for ongoing personal and professional development. Currently, I am pursuing a
-      master’s in computer science with a specialization in Software Engineering, sparked by my
-      growing interest in programming. My background includes mechanical and project experience, and
-      I excel at communicating complex technical concepts to non-technical stakeholders, fostering
-      strong relationships with clients along the way. I am always eager to explore new ideas and
-      challenges, continuously seeking ways to grow and contribute meaningfully in my field.
-    </p>
-  </div>
+  <header>
+    <h1>This is the login page</h1>
+  </header>
+
+  <main>
+    <form>
+      <!-- container for the username and password elements -->
+      <div class="login-container">
+        <div class="row py-3">
+          <div class="col">
+            <label for="username" class="login-label col-2">Username: </label>
+            <input type="text" class="login-control" id="username" />
+          </div>
+        </div>
+        <div class="row pb-3">
+          <div class="col">
+            <label for="password" class="login-label col-2">Password: </label>
+            <input type="text" class="login-control" id="username" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" class="btn btn-primary login-btn">Login</button>
+      </div>
+    </form>
+  </main>
 </template>
+
+<style>
+.login-container {
+  color: grey;
+}
+</style>
