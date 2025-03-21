@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Info from '../views/Info.vue'
 import ForFun from '../views/ForFun.vue'
+import Login from '../views/Login.vue'
 import FosterDogs from '../views/nested/FosterDogs.vue'
 
 const routes = [
@@ -11,6 +12,7 @@ const routes = [
   { path: '/info', component: Info },
   { path: '/ForFun/fosterdogs', component: FosterDogs },
   { path: '/ForFun', component: ForFun },
+  { path: '/Login', component: Login },
 ]
 
 const router = createRouter({
