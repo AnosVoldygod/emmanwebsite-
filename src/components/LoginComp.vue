@@ -21,13 +21,17 @@ const loginAttempt = () => {
     isAuthenticated.value = true
     router.push('/') // redirect to home
   } else if (loginAttemptCount == 0) {
-    alert('Should you be here?')
+    alert('Are you in the right place?')
     loginDetails.value.password = ''
     loginAttemptCount += 1
   } else {
     alert('Plz stap')
     loginDetails.value.password = ''
   }
+}
+
+const forgotPassword = () => {
+  alert("You definitely shouldn't be here if you expect this to actually do something...")
 }
 </script>
 
@@ -44,7 +48,7 @@ const loginAttempt = () => {
             v-model="loginDetails.password"
             required
           />
-          <p class="forgot-text">Forgot Password?</p>
+          <p class="forgot-password" @click="forgotPassword">Forgot Password?</p>
         </div>
       </div>
     </div>
@@ -64,5 +68,12 @@ const loginAttempt = () => {
 
 .login-label {
   padding-top: 6px;
+}
+
+.forgot-password {
+  color: rgb(122, 122, 245);
+  text-decoration: underline;
+  cursor: pointer;
+  padding-top: 5px;
 }
 </style>
