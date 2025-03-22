@@ -21,18 +21,19 @@ import LoginMessage from '../components/LoginMessage.vue'
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .login-message {
   flex: 1;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .login-component {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .login-page {
