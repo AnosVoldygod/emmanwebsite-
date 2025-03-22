@@ -11,7 +11,7 @@ const loginDetails = ref({
 })
 
 const loginAttempt = () => {
-  if (loginDetails.value.username === 'emmanuel') {
+  if (loginDetails.value.password === 'emmanuel') {
     isAuthenticated.value = true
     router.push('/') // redirect to home
   }

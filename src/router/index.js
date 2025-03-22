@@ -21,11 +21,11 @@ const router = createRouter({
   routes,
 })
 
-router.beforeEach((to, from) => {
-  if (to.name !== 'Login' && !isAuthenticated.value) {
-    return { name: 'Login' } // redirect
-  }
-  return true // allow navigation
-})
+// router.beforeEach((to, from) => {
+//   if (to.name !== 'Login' && !isAuthenticated.value) {
+//     return { name: 'Login' } // redirect
+//   }
+//   return true // allow navigation
+// })
 
 export default router
