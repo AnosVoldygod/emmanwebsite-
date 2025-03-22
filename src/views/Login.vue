@@ -22,6 +22,8 @@ import LoginMessage from '../components/LoginMessage.vue'
   align-items: flex-start;
   padding: 2rem;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .login-message {
@@ -37,6 +39,9 @@ import LoginMessage from '../components/LoginMessage.vue'
 }
 
 .login-page {
-  border-style: solid;
+  min-height: calc(100vh - 100px); /* adjust if you have a header/footer */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* vertical centering */
 }
 </style>

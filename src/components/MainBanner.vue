@@ -1,7 +1,7 @@
 <template>
   <header>
     <div>
-      <div style="border-style: solid" class="bannerContainer">
+      <div class="bannerContainer">
         <div class="bannerHeading"><h1>Emmanuel Berkowicz</h1></div>
         <div class="navigationBar">
           <nav>
