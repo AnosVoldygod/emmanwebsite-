@@ -1,9 +1,9 @@
-<script setup></script>
+<script setup>
+import ProfSummary from '../components/ProfSummary.vue'
+</script>
 
 <template>
-  <main>
-    <div class="content">
-      <h1>Home page</h1>
-    </div>
-  </main>
+  <div class="home">
+    <ProfSummary />
+  </div>
 </template>

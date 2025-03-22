@@ -26,19 +26,16 @@ const loginAttempt = () => {
   <form @submit.prevent="loginAttempt">
     <!-- container for the username and password elements -->
     <div class="login-container">
-      <div>
-        <div>
-          <label for="password" class="login-label">Password: </label>
-          <input
-            type="password"
-            class="login-control"
-            id="password"
-            v-model="loginDetails.password"
-            required
-          />
-        </div>
-      </div>
+      <label for="password" class="login-label">Password: </label>
+      <input
+        type="password"
+        class="login-control"
+        id="password"
+        v-model="loginDetails.password"
+        required
+      />
     </div>
+
     <div>
       <button type="submit" class="btn btn-primary login-btn">Login</button>
     </div>

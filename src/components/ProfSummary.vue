@@ -9,9 +9,7 @@ const goToTroll = () => {
 <template>
   <header>
     <div>
-      <h1>Professional Summary</h1>
-      <p>I am an engineer and I do engineering things!</p>
-      <button class="btn" @click="goToTroll">Go on<br />Click me</button>
+      <h1>Professional summary:</h1>
     </div>
   </header>
 
@@ -30,6 +28,7 @@ const goToTroll = () => {
         field.
       </p>
     </div>
+    <button class="btn" @click="goToTroll">Bank Details</button>
   </main>
 </template>
 
