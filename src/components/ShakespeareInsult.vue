@@ -14,6 +14,19 @@ export default {
 }
 </script>
 <template>
+  <header>
+    <nav class="nav">
+      <button
+        type="button"
+        class="btn btn-primary btn-lg"
+        id="dogButton"
+        @click="$router.push('/ForFun/fosterdogs')"
+      >
+        Foster Dogs
+      </button>
+    </nav>
+  </header>
+
   <main>
     <div class="card" style="width: 18rem">
       <img alt="Vue logo" class="logo" src="../assets/hipspeare.jpg" width="200" height="200" />

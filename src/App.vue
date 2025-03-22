@@ -1,11 +1,11 @@
 <script setup>
-import Banner from './components/Banner.vue'
+import MainBanner from './components/MainBanner.vue'
 </script>
 
 <template>
   <header>
     <container>
-      <Banner />
+      <MainBanner />
     </container>
   </header>
 
