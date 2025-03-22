@@ -9,6 +9,8 @@ const loginDetails = ref({
   password: '',
 })
 
+let loginAttemptCount = 0
+
 //Temporary validation method. Will be moved to back end
 const loginAttempt = () => {
   /*If you are reading this, I am very aware that this is a poor and unsafe way to
@@ -18,6 +20,13 @@ const loginAttempt = () => {
   if (loginDetails.value.password === 'emmanuel') {
     isAuthenticated.value = true
     router.push('/') // redirect to home
+  } else if (loginAttemptCount == 0) {
+    alert('Should you be here?')
+    loginDetails.value.password = ''
+    loginAttemptCount += 1
+  } else {
+    alert('Plz stap')
+    loginDetails.value.password = ''
   }
 }
 </script>
