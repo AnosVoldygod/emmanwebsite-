@@ -5,7 +5,7 @@ import LoginMessage from '../components/LoginMessage.vue'
 
 <template>
   <header>
-    <LoginComponent />
+    <LoginMessage />
   </header>
-  <main><LoginMessage /></main>
+  <main><LoginComponent /></main>
 </template>

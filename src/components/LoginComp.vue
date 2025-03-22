@@ -19,9 +19,7 @@ const loginAttempt = () => {
 </script>
 
 <template>
-  <header>
-    <div class="loginHeading"><h1>Welcome to my website!</h1></div>
-  </header>
+  <header></header>
 
   <main>
     <form @submit.prevent="loginAttempt">
