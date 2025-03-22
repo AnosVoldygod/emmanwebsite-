@@ -23,30 +23,26 @@ const loginAttempt = () => {
 </script>
 
 <template>
-  <header></header>
-
-  <main>
-    <form @submit.prevent="loginAttempt">
-      <!-- container for the username and password elements -->
-      <div class="login-container">
-        <div class="row pb-3">
-          <div class="col">
-            <label for="password" class="login-label col-2">Password: </label>
-            <input
-              type="password"
-              class="login-control"
-              id="password"
-              v-model="loginDetails.password"
-              required
-            />
-          </div>
+  <form @submit.prevent="loginAttempt">
+    <!-- container for the username and password elements -->
+    <div class="login-container">
+      <div>
+        <div>
+          <label for="password" class="login-label">Password: </label>
+          <input
+            type="password"
+            class="login-control"
+            id="password"
+            v-model="loginDetails.password"
+            required
+          />
         </div>
       </div>
-      <div class="row">
-        <button type="submit" class="btn btn-primary login-btn">Login</button>
-      </div>
-    </form>
-  </main>
+    </div>
+    <div>
+      <button type="submit" class="btn btn-primary login-btn">Login</button>
+    </div>
+  </form>
 </template>
 
 <style>

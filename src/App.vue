@@ -1,15 +1,33 @@
 <script setup>
+import './assets/main.css'
 import MainBanner from './components/MainBanner.vue'
+import BottomBar from './components/BottomBar.vue'
 </script>
 
 <template>
-  <header>
-    <container>
+  <div class="page">
+    <header>
       <MainBanner />
-    </container>
-  </header>
+    </header>
 
-  <main>
-    <router-view></router-view>
-  </main>
+    <main class="content">
+      <router-view />
+    </main>
+
+    <footer>
+      <BottomBar />
+    </footer>
+  </div>
 </template>
+
+<style>
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+</style>

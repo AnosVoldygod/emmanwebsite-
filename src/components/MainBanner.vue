@@ -1,6 +1,6 @@
 <template>
   <header>
-    <container>
+    <div>
       <div style="border-style: solid" class="bannerContainer">
         <div class="bannerHeading"><h1>Emmanuel Berkowicz</h1></div>
         <div class="navigationBar">
@@ -11,7 +11,7 @@
           </nav>
         </div>
       </div>
-    </container>
+    </div>
   </header>
 </template>
 
@@ -20,6 +20,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.bannerHeading {
+  font-family: 'Times New Roman';
+
+  color: rgb(38, 156, 117);
 }
 
 .navigationBar {

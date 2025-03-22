@@ -5,9 +5,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-  <header>
-    <ViewBanner />
-  </header>
+  <header></header>
 
   <main>
     <shakespeareInsults />

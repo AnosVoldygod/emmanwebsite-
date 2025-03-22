@@ -2,6 +2,8 @@
 
 <template>
   <main>
-    <h1>Home page</h1>
+    <div class="content">
+      <h1>Home page</h1>
+    </div>
   </main>
 </template>
