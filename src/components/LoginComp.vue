@@ -11,6 +11,10 @@ const loginDetails = ref({
 
 //Temporary validation method. Will be moved to back end
 const loginAttempt = () => {
+  /*If you are reading this, I am very aware that this is a poor and unsafe way to
+    lock or guard your site. I just haven't yet learnt how to link local or back end yet...
+    Please don't assume this is final!
+  */
   if (loginDetails.value.password === 'emmanuel') {
     isAuthenticated.value = true
     router.push('/') // redirect to home
