@@ -6,10 +6,10 @@ import { isAuthenticated } from '../router/auth.js'
 const router = useRouter()
 
 const loginDetails = ref({
-  username: '',
   password: '',
 })
 
+//Temporary validation method. Will be moved to back end
 const loginAttempt = () => {
   if (loginDetails.value.password === 'emmanuel') {
     isAuthenticated.value = true
@@ -20,25 +20,13 @@ const loginAttempt = () => {
 
 <template>
   <header>
-    <h1>This is the login page</h1>
+    <div class="loginHeading"><h1>Welcome to my website!</h1></div>
   </header>
 
   <main>
     <form @submit.prevent="loginAttempt">
       <!-- container for the username and password elements -->
       <div class="login-container">
-        <div class="row py-3">
-          <div class="col">
-            <label for="username" class="login-label col-2">Username: </label>
-            <input
-              type="text"
-              class="login-control"
-              id="username"
-              v-model="loginDetails.username"
-              required
-            />
-          </div>
-        </div>
         <div class="row pb-3">
           <div class="col">
             <label for="password" class="login-label col-2">Password: </label>
