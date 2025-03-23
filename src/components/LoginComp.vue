@@ -45,7 +45,7 @@ const forgotPassword = () => {
     <div class="login-container">
       <div class="input-row">
         <label for="password" class="login-label">Password:</label>
-        <div class="input-column">
+        <div class="login-input">
           <input
             type="password"
             class="login-control"
@@ -56,23 +56,31 @@ const forgotPassword = () => {
           <p class="forgot-password" @click="forgotPassword">Forgot Password?</p>
         </div>
       </div>
-    </div>
-
-    <div class="button-row">
-      <button type="submit" class="btn btn-primary login-btn">Login</button>
+      <div class="button-row">
+        <button type="submit" class="login-btn">Login</button>
+      </div>
     </div>
   </form>
 </template>
 
 <style>
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .input-row {
   display: flex;
   align-items: flex-start;
+
   gap: 10px;
 }
 
 .login-label {
-  padding-top: 6px;
+  padding-top: 0px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .forgot-password {
@@ -80,5 +88,25 @@ const forgotPassword = () => {
   text-decoration: underline;
   cursor: pointer;
   padding-top: 5px;
+}
+
+.login-btn {
+  background-color: black;
+  color: white;
+  width: 75px;
+  padding: 5px 0px 5px 0px; /*top, right, bottom, left*/
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.login-container .button-row {
+  align-self: flex-end;
+  padding-right: 100px;
+}
+
+.login-control {
+  width: 275px;
+  height: 40px;
 }
 </style>

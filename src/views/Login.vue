@@ -47,18 +47,17 @@ import LoginPageSocials from '../components/LoginPageSocials.vue'
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   max-width: 100%;
+}
+
+.login-socials {
+  margin-top: 2rem;
 }
 
 .login-component {
   flex: 1;
   display: flex;
   max-width: 100%;
-}
-
-.login-socials {
-  margin-top: 2rem;
-  align-self: center;
 }
 </style>

@@ -13,7 +13,7 @@ const displayOptionMessage = () => {
     <!-- Div main wrapper for the login options, google, apple ect... -->
     <div class="login-options-wrapper">
       <!-- Individual wrappers for each of the options. -->
-      <div class="google-option generic-login-option" @click="displayOptionMessage">
+      <div class="google-option generic-login-option">
         <img alt="Google Logo" class="logo-generic" src="../assets/SocialMedia/Google.jpg" />
         <div class="login-option-text">
           <p>Continue with Google</p>
