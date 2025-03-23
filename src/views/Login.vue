@@ -46,13 +46,14 @@ import LoginPageSocials from '../components/LoginPageSocials.vue'
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
 }
 
 .login-component {
   flex: 1;
   display: flex;
-  justify-content: center;
   max-width: 100%;
 }
 
