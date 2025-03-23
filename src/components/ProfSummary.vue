@@ -1,9 +1,6 @@
 <script setup>
 import { ref } from 'vue'
 let additionalPoints = ref(false)
-const goToTroll = () => {
-  window.location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
-}
 </script>
 
 <template>
@@ -28,7 +25,6 @@ const goToTroll = () => {
         field.
       </p>
     </div>
-    <button class="btn" @click="goToTroll">Bank Details</button>
   </main>
 </template>
 
