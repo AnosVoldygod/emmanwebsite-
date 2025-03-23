@@ -1,6 +1,7 @@
 <script setup>
 import LoginComponent from '../components/LoginComp.vue'
 import LoginMessage from '../components/LoginMessage.vue'
+import LoginPageSocials from '../components/LoginPageSocials.vue'
 </script>
 
 <template>
@@ -9,17 +10,26 @@ import LoginMessage from '../components/LoginMessage.vue'
       <div class="login-message">
         <LoginMessage />
       </div>
-      <div class="login-component">
-        <LoginComponent />
+      <div class="login-options">
+        <div class="login-component">
+          <LoginComponent />
+        </div>
+        <div class="login-socials"><LoginPageSocials /></div>
       </div>
     </div>
   </div>
 </template>
 <style>
+.login-page {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .login-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+
+  align-items: center;
   padding: 2rem;
   flex-wrap: wrap;
   width: 100%;
@@ -29,19 +39,25 @@ import LoginMessage from '../components/LoginMessage.vue'
 .login-message {
   flex: 1;
   max-width: 100%;
+  display: flex;
+}
+
+.login-options {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
 
 .login-component {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   max-width: 100%;
 }
 
-.login-page {
-  min-height: calc(100vh - 100px); /* adjust if you have a header/footer */
-  display: flex;
-  justify-content: center;
-  align-items: center; /* vertical centering */
+.login-socials {
+  margin-top: 2rem;
+  align-self: center;
 }
 </style>
