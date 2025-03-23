@@ -21,7 +21,7 @@ import LoginPageSocials from '../components/LoginPageSocials.vue'
 </template>
 <style>
 .login-page {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 120px);
   display: flex;
   justify-content: center;
   align-items: center;

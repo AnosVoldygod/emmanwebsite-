@@ -6,8 +6,8 @@
         <div class="navigationBar">
           <nav>
             <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
-            <router-link to="/ForFun">For Fun</router-link>|
-            <router-link to="/Login">Login</router-link>
+            <router-link to="/ForFun">For Fun</router-link>
+            <!-- | <router-link to="/Login">Login</router-link> -->
           </nav>
         </div>
       </div>

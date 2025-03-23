@@ -73,12 +73,9 @@ const forgotPassword = () => {
 .input-row {
   display: flex;
   align-items: flex-start;
-
-  gap: 10px;
 }
 
 .login-label {
-  padding-top: 0px;
   font-size: 30px;
   font-weight: bold;
 }
