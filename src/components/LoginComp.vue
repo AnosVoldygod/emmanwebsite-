@@ -24,9 +24,14 @@ const loginAttempt = () => {
     alert('Are you in the right place?')
     loginDetails.value.password = ''
     loginAttemptCount += 1
-  } else {
+  } else if (loginAttemptCount == 1) {
+    loginAttemptCount += 1
     alert('Plz stap')
     loginDetails.value.password = ''
+  } else {
+    loginDetails.value.password = ''
+    alert('I did ask you to stop...')
+    location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
   }
 }
 
