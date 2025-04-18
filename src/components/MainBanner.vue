@@ -1,3 +1,21 @@
+<script setup>
+import { getAuth, signOut } from 'firebase/auth'
+import { useRouter } from 'vue-router'
+const auth = getAuth()
+const router = useRouter()
+const logout = () => {
+  signOut(auth)
+    .then(() => {
+      console.log('User signed out')
+      localStorage.setItem('isLoggedIn', false)
+      router.push('/login')
+    })
+    .catch((error) => {
+      console.error('Sign-out error:', error)
+    })
+}
+</script>
+
 <template>
   <header>
     <div>
@@ -7,8 +25,9 @@
           <nav>
             <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
             <router-link to="/ForFun">For Fun</router-link>
-            <!-- | <router-link to="/Login">Login</router-link> -->
+            | <router-link to="/Login">Login</router-link>
           </nav>
+          <button @click="logout">Logout</button>
         </div>
       </div>
     </div>
