@@ -1,7 +1,7 @@
 <script setup>
 import './assets/main.css'
-import MainBanner from './components/MainBanner.vue'
-import BottomBar from './components/BottomBar.vue'
+import MainBanner from './components/Banners/MainBanner.vue'
+import BottomBar from './components/Banners/BottomBar.vue'
 </script>
 
 <template>
@@ -22,12 +22,13 @@ import BottomBar from './components/BottomBar.vue'
 
 <style>
 .page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 
-.content {
-  flex: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; /* This makes the element take up the entire screen */
 }
 </style>

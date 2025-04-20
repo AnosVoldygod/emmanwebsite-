@@ -1,7 +1,6 @@
 <script setup>
-import LoginComponent from '../components/LoginComp.vue'
-import LoginMessage from '../components/LoginMessage.vue'
-import LoginPageSocials from '../components/LoginPageSocials.vue'
+import LoginComponent from '../components/Login/LoginComp.vue'
+import LoginMessage from '../components/Login/LoginMessage.vue'
 </script>
 
 <template>
@@ -14,7 +13,6 @@ import LoginPageSocials from '../components/LoginPageSocials.vue'
         <div class="login-component">
           <LoginComponent />
         </div>
-        <div class="login-socials"><LoginPageSocials /></div>
       </div>
     </div>
   </div>
