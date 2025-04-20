@@ -4,58 +4,31 @@ import LoginMessage from '../components/Login/LoginMessage.vue'
 </script>
 
 <template>
-  <div class="login-page">
-    <div class="login-wrapper">
+  <div class="login-wrapper">
+    <div class="login-components">
       <div class="login-message">
         <LoginMessage />
       </div>
-      <div class="login-options">
-        <div class="login-component">
-          <LoginComponent />
-        </div>
+      <div class="login-component">
+        <LoginComponent />
       </div>
     </div>
   </div>
 </template>
-<style>
-.login-page {
-  min-height: calc(100vh - 120px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<style scoped>
+* {
+  border: 1px solid red;
 }
+
 .login-wrapper {
-  display: flex;
-
-  align-items: center;
-  padding: 2rem;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 1200px;
-}
-
-.login-message {
-  flex: 1;
-  max-width: 100%;
-  display: flex;
-}
-
-.login-options {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  height: 100%;
   justify-content: center;
-  align-items: flex-end;
-  max-width: 100%;
+  align-items: center;
 }
 
-.login-socials {
-  margin-top: 2rem;
-}
-
-.login-component {
-  flex: 1;
-  display: flex;
-  max-width: 100%;
+.login-components {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 </style>

@@ -1,13 +1,12 @@
 <script setup>
-import './assets/main.css'
-import MainBanner from './components/Banners/MainBanner.vue'
-import BottomBar from './components/Banners/BottomBar.vue'
+import TopMainBar from './components/Banners/TopMainBar.vue'
+import BottomBar from './components/Banners/BottomMainBar.vue'
 </script>
 
 <template>
   <div class="page">
     <header>
-      <MainBanner />
+      <TopMainBar />
     </header>
 
     <main class="content">
@@ -21,6 +20,17 @@ import BottomBar from './components/Banners/BottomBar.vue'
 </template>
 
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .page {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -29,6 +39,6 @@ import BottomBar from './components/Banners/BottomBar.vue'
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0; /* This makes the element take up the entire screen */
+  right: 0;
 }
 </style>

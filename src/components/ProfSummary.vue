@@ -1,7 +1,4 @@
-<script setup>
-import { ref } from 'vue'
-let additionalPoints = ref(false)
-</script>
+<script setup></script>
 
 <template>
   <header>
@@ -28,16 +25,4 @@ let additionalPoints = ref(false)
   </main>
 </template>
 
-<style scoped>
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 10px;
-  font-size: 14px;
-  background-color: rgb(157, 23, 23);
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s;
-}
-</style>
+<style scoped></style>
