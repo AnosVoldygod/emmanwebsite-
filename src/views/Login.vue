@@ -4,7 +4,7 @@ import LoginMessage from '../components/Login/LoginMessage.vue'
 </script>
 
 <template>
-  <div class="login-wrapper">
+  <div class="login-wrapper-main">
     <div class="login-components">
       <div class="login-message">
         <LoginMessage />
@@ -16,11 +16,7 @@ import LoginMessage from '../components/Login/LoginMessage.vue'
   </div>
 </template>
 <style scoped>
-* {
-  border: 1px solid red;
-}
-
-.login-wrapper {
+.login-wrapper-main {
   display: grid;
   height: 100%;
   justify-content: center;

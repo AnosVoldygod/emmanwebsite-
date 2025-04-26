@@ -31,10 +31,9 @@ body {
 }
 
 .page {
+  background: linear-gradient(135deg, #a8a8ae76, #3332326b);
   display: grid;
-  grid-template-rows: auto 1fr auto;
   position: absolute;
-
   top: 0;
   bottom: 0;
   left: 0;
@@ -50,7 +49,10 @@ body {
 }
 
 .content {
-  margin: 50px 0 30px 0;
+  padding-top: 50px; /* top bar */
+  padding-bottom: 30px; /* bottom bar */
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .bottom-bar {
