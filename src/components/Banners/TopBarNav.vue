@@ -43,9 +43,10 @@ const toggleSidebar = () => {
           </svg>
         </div>
       </li>
-      <li class="nav-item">
-        <RouterLink class="nav-icon" to="/">Home</RouterLink>
+      <li class="nav-item text-heading">
+        <RouterLink class="fancy-text" to="/"> Emmanuel Berkowicz </RouterLink>
       </li>
+
       <li class="nav-item">
         <RouterLink class="nav-icon" to="/about">About</RouterLink>
       </li>
@@ -60,15 +61,6 @@ const toggleSidebar = () => {
 </template>
 
 <style scoped>
-.nav-container {
-  background-color: rgba(0, 0, 0, 0.766);
-  box-shadow: 0px 5px 20px rgb(210, 37, 37);
-}
-
-/* .side-bar-nav {
-  display: flex;
-} */
-
 .nav-list {
   width: 100%;
   list-style: none;
@@ -87,15 +79,79 @@ const toggleSidebar = () => {
 }
 
 .nav-item:first-child {
+  display: none;
+}
+.nav-item:nth-child(2) {
+  margin-left: 20px; /* same as burger padding */
   margin-right: auto;
+  white-space: nowrap;
 }
 
 .nav-icon {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0px 30px 0px 30px;
-  color: aliceblue;
+  justify-content: center;
+  padding: 0 clamp(5px, 1vw, 30px);
+  width: clamp(50px, 10vw, 250px);
+  color: rgb(171, 182, 190);
   text-decoration: none;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+/* Fancy name shizzel sticks */
+
+.text-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fancy-text {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #bbb, #ddd, #bbb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: textGlow 5s ease infinite alternate;
+  text-align: center;
+  padding: 0;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow:
+      0 0 1px #ccc,
+      0 0 2px #ccc;
+  }
+  100% {
+    text-shadow:
+      0 0 3px #ddd,
+      0 0 6px #ddd;
+  }
+}
+
+/* CONDITIONAL FORMATING FOR WHEN MEDIA SCREEN IS AT DIFF SIZES BELLOW MY PROGRAMMER SIR */
+
+@media (max-width: 800px) {
+  .nav-list {
+    justify-content: flex-start;
+  }
+  .nav-item:first-child {
+    display: flex;
+  }
+
+  .nav-item:nth-child(2) {
+    white-space: nowrap;
+  }
+
+  .nav-item:nth-child(n + 3) {
+    display: none;
+  }
 }
 </style>

@@ -37,16 +37,15 @@ const logout = () => {
         </div>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-icon" to="/">Home</RouterLink>
+        <RouterLink class="nav-icon" to="/login" @click="emit('toggleSidebar')">Login</RouterLink>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-icon" to="/about">About</RouterLink>
+        <RouterLink class="nav-icon" to="/about" @click="emit('toggleSidebar')">About</RouterLink>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-icon" to="/ForFun">For Fun</RouterLink>
-      </li>
-      <li class="nav-item">
-        <RouterLink class="nav-icon" to="/login">Login</RouterLink>
+        <RouterLink class="nav-icon" to="/forfun" @click="emit('toggleSidebar')"
+          >For Fun</RouterLink
+        >
       </li>
     </ul>
   </nav>
@@ -65,7 +64,7 @@ const logout = () => {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 500px;
+  width: 100%;
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.766);
   box-shadow: 0px 5px 20px rgb(210, 37, 37);
