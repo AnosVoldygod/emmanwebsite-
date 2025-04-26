@@ -5,17 +5,15 @@ import BottomBar from './components/Banners/BottomMainBar.vue'
 
 <template>
   <div class="page">
-    <header>
-      <TopMainBar />
-    </header>
+    <div class="top-bar"><TopMainBar /></div>
 
-    <main class="content">
+    <div class="content">
       <router-view />
-    </main>
+    </div>
 
-    <footer>
+    <div class="bottom-bar">
       <BottomBar />
-    </footer>
+    </div>
   </div>
 </template>
 
@@ -31,14 +29,39 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .page {
   display: grid;
   grid-template-rows: auto 1fr auto;
-
   position: absolute;
+
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.top-bar {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.content {
+  margin: 50px 0 30px 0;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  box-sizing: border-box;
 }
 </style>

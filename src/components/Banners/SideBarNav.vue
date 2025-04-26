@@ -53,7 +53,6 @@ const logout = () => {
 
 <style scoped>
 .nav-container {
-  background-color: rgba(0, 0, 0, 0.766);
   box-shadow: 0px 5px 20px rgb(210, 37, 37);
 }
 
