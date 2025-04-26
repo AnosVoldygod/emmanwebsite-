@@ -4,6 +4,8 @@ import TopBarHeading from './TopBarHeading.vue'
 </script>
 
 <template>
-  <TopBarHeading />
-  <TopBarNav />
+  <div class="nav-wrapper">
+    <div class="heading"><TopBarHeading /></div>
+    <div class="top-bar-nav"><TopBarNav /></div>
+  </div>
 </template>
