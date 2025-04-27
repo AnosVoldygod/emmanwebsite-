@@ -1,9 +1,11 @@
 <script setup>
-import ProfSummary from '../components/ProfSummary.vue'
+import AboutInformation from '../components/About/AboutInformation.vue'
 </script>
 
 <template>
-  <div class="about">
-    <ProfSummary />
+  <div class="home-wrapper">
+    <div class="about-content">
+      <AboutInformation />
+    </div>
   </div>
 </template>
