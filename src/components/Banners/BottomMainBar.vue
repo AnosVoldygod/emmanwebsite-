@@ -8,7 +8,7 @@
 
 <style scoped>
 .mainBar {
-  background-color: rgba(0, 0, 0, 0.766);
+  background-color: rgba(0, 0, 0, 0.901);
   display: flex;
   justify-content: flex-start;
   align-items: center;

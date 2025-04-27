@@ -14,27 +14,28 @@
 </template>
 <style scoped>
 .login-header {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   text-align: left;
-  margin: 2rem auto;
+
   width: 100%;
   max-width: 600px;
-  color: rgb(49, 46, 46);
+  color: rgb(238, 209, 209);
 }
 
-.login-welcome h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
+.heading-welcome {
+  font-size: clamp(2rem, 6vw, 3.5rem);
   margin-bottom: 1rem;
+  letter-spacing: 2px;
 }
 
 .login-paragraph p {
-  font-size: clamp(1rem, 2.5vw, 2rem);
-  line-height: 1.6;
+  font-size: clamp(1rem, 3vw, 1.75rem);
+  letter-spacing: 2px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 965px) {
   .login-header {
-    padding: 0.5rem 0.5rem 0rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
   }
 
   .login-welcome {

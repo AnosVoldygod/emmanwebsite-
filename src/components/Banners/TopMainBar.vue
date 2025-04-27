@@ -10,6 +10,6 @@ import TopBarNav from './TopBarNav.vue'
 
 <style scoped>
 .nav-wrapper {
-  background-color: rgba(0, 0, 0, 0.766);
+  background-color: rgba(0, 0, 0, 0.901);
 }
 </style>

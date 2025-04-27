@@ -21,7 +21,7 @@ import LoginMessage from '../components/Login/LoginMessage.vue'
   height: 100%;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #a8a8ae76, #3332326b);
+  background: linear-gradient(135deg, #000000, #333232);
 }
 
 .login-components {
@@ -38,7 +38,7 @@ import LoginMessage from '../components/Login/LoginMessage.vue'
   padding: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 965px) {
   .login-components {
     flex-direction: column;
   }

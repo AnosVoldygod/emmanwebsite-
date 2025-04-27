@@ -92,13 +92,13 @@ input {
 }
 .login-heading {
   font-size: clamp(1rem, 5vw, 2.5rem);
-  color: #4b3f3f;
+  color: rgb(238, 209, 209);
   letter-spacing: 2px;
 }
 
 .login-paragraph {
   font-size: clamp(0.5rem, 5vw, 1rem);
-  color: #4b3f3f;
+  color: rgb(238, 209, 209);
   letter-spacing: 2px;
   text-align: left;
 }
@@ -185,7 +185,7 @@ button:hover {
   font-size: 1.1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 965px) {
   .login-content {
     padding: 0.5rem 1rem 0.5rem 1rem;
     gap: 0.5rem;

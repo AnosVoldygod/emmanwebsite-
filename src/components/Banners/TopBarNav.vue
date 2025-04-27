@@ -104,7 +104,8 @@ onMounted(() => {
   justify-content: center;
   padding: 0 clamp(5px, 1vw, 30px);
   width: clamp(50px, 10vw, 250px);
-  color: rgb(171, 182, 190);
+  color: rgb(238, 209, 209);
+  letter-spacing: 2px;
   text-decoration: none;
   font-size: clamp(1rem, 2vw, 1.5rem);
 }
