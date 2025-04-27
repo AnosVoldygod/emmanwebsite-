@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import ForFun from '../views/ForFun.vue'
+import Hobbies from '../views/Hobbies.vue'
 import Login from '../views/Login.vue'
 import FosterDogs from '../views/nested/FosterDogs.vue'
 import { isAuthenticated } from './auth.js'
@@ -10,7 +10,7 @@ const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
   { path: '/ForFun/fosterdogs', name: 'FosterDogs', component: FosterDogs },
-  { path: '/ForFun', name: 'ForFun', component: ForFun },
+  { path: '/hobbies', name: 'Hobbies', component: Hobbies },
   { path: '/Login', name: 'Login', component: Login },
 ]
 

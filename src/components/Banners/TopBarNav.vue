@@ -58,7 +58,7 @@ onMounted(() => {
         <RouterLink class="nav-icon" to="/about">About</RouterLink>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-icon" to="/ForFun">For Fun</RouterLink>
+        <RouterLink class="nav-icon" to="/hobbies">Hobbies</RouterLink>
       </li>
       <li class="nav-item" v-if="!loginStatus">
         <RouterLink class="nav-icon" to="/login">Login</RouterLink>
