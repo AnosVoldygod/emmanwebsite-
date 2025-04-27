@@ -23,7 +23,7 @@ const login = () => {
       errorMessage.value = ''
       showPopup.value = true
       localStorage.setItem('isLoggedIn', 'true')
-      setTimeout(() => router.push('/'), 1500)
+      setTimeout(() => (window.location.href = '/'), 1500)
     })
     .catch((error) => {
       console.error(error)
@@ -183,5 +183,12 @@ button:hover {
   color: #ac2729;
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+  .login-content {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    gap: 0.5rem;
+  }
 }
 </style>

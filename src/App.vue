@@ -31,7 +31,6 @@ body {
 }
 
 .page {
-  background: linear-gradient(135deg, #a8a8ae76, #3332326b);
   display: grid;
   position: absolute;
   top: 0;

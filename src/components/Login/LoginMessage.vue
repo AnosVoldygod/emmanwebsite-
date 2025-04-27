@@ -1,5 +1,5 @@
 <template>
-  <header class="login-header">
+  <div class="login-header">
     <div class="login-welcome">
       <h1 class="heading-welcome">Welcome to my website!</h1>
     </div>
@@ -10,7 +10,7 @@
         please don't...
       </p>
     </div>
-  </header>
+  </div>
 </template>
 <style scoped>
 .login-header {
@@ -30,5 +30,15 @@
 .login-paragraph p {
   font-size: clamp(1rem, 2.5vw, 2rem);
   line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .login-header {
+    padding: 0.5rem 0.5rem 0rem;
+  }
+
+  .login-welcome {
+    text-align: center;
+  }
 }
 </style>

@@ -17,14 +17,35 @@ import LoginMessage from '../components/Login/LoginMessage.vue'
 </template>
 <style scoped>
 .login-wrapper-main {
-  display: grid;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a8a8ae76, #3332326b);
+}
+
+.login-components {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.login-components {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.login-message,
+.login-component {
+  padding: 1rem;
+}
+
+@media (max-width: 800px) {
+  .login-components {
+    flex-direction: column;
+  }
+
+  .login-message,
+  .login-component {
+    padding: 0 0.5rem 0rem 0.5rem;
+  }
 }
 </style>

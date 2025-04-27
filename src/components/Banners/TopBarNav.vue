@@ -1,17 +1,20 @@
 <script setup>
 import { getAuth, signOut } from 'firebase/auth'
 import { useRouter } from 'vue-router'
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import SideBarNav from './SideBarNav.vue'
 
 const auth = getAuth()
 const router = useRouter()
+const loginStatus = ref(false)
+
 const logout = () => {
   signOut(auth)
     .then(() => {
       console.log('User signed out')
       localStorage.setItem('isLoggedIn', false)
-      router.push('/login')
+
+      window.location.href = '/login'
     })
     .catch((error) => {
       console.error('Sign-out error:', error)
@@ -22,6 +25,10 @@ const displaySidebar = ref(false)
 const toggleSidebar = () => {
   displaySidebar.value = !displaySidebar.value
 }
+
+onMounted(() => {
+  loginStatus.value = localStorage.getItem('isLoggedIn') === 'true'
+})
 </script>
 
 <template>
@@ -53,8 +60,11 @@ const toggleSidebar = () => {
       <li class="nav-item">
         <RouterLink class="nav-icon" to="/ForFun">For Fun</RouterLink>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" v-if="!loginStatus">
         <RouterLink class="nav-icon" to="/login">Login</RouterLink>
+      </li>
+      <li class="nav-item" @click="logout" v-if="loginStatus">
+        <RouterLink class="nav-icon" to="/login">Logout</RouterLink>
       </li>
     </ul>
   </nav>
@@ -109,7 +119,6 @@ const toggleSidebar = () => {
 
 .fancy-text {
   text-decoration: none;
-  font-size: 2rem;
   font-weight: 800;
   letter-spacing: 2px;
   background: linear-gradient(90deg, #bbb, #ddd, #bbb);
@@ -120,7 +129,7 @@ const toggleSidebar = () => {
   animation: textGlow 5s ease infinite alternate;
   text-align: center;
   padding: 0;
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-size: clamp(1.25rem, 4vw, 2.5rem);
 }
 
 @keyframes textGlow {
