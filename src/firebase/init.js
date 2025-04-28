@@ -6,6 +6,7 @@ import { getFirestore } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
+  // Please don't judge me for not having used an env file, I'm getting round to it! Honest!
   apiKey: 'AIzaSyBQOhriPP-OAcGhHMVUVn9DTpQ_bZW33Z0',
   authDomain: 'emmanuelberkowiczwebsite.firebaseapp.com',
   projectId: 'emmanuelberkowiczwebsite',
