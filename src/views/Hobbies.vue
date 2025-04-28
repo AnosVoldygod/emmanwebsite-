@@ -8,6 +8,17 @@ import { ref } from 'vue'
   <header></header>
 
   <main>
-    <shakespeareInsults />
+    <div class="shakespeare-container">
+      <shakespeareInsults />
+    </div>
   </main>
 </template>
+
+<style scoped>
+.shakespeare-container {
+  min-height: calc(100vh - 80px);
+  background: linear-gradient(135deg, #000000, #333232);
+  color: rgb(238, 209, 209);
+  letter-spacing: 2px;
+}
+</style>

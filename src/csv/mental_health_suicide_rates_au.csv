@@ -1,0 +1,101 @@
+id,Country,Year,AgeGroup,Gender,SuicideRate,MentalHealthFundingpercapita,ReportedMentalHealthIssues100k,EmploymentStatus,Notes
+1,Australia,2023,15-24,Male,13.99,293.09,2003,Student,
+2,Australia,2019,15-24,Male,14.59,376.15,1130,Retired,
+3,Australia,2018,25-34,Male,11.06,288.29,3298,Employed,
+4,Australia,2023,55-64,Female,18.32,338.37,2839,Unemployed,Mental health campaign launched
+5,Australia,2024,15-24,Male,10.12,327.13,2393,Retired,Mental health campaign launched
+6,Australia,2019,25-34,Female,10.15,276.71,1379,Employed,Mental health campaign launched
+7,Australia,2018,35-44,Female,12.97,204.34,4305,Student,
+8,Australia,2023,45-54,Male,5.1,271.89,1322,Retired,Mental health campaign launched
+9,Australia,2024,55-64,Female,7.95,315.71,3885,Unemployed,
+10,Australia,2018,25-34,Female,8.37,229.38,4503,Employed,
+11,Australia,2024,15-24,Female,17.86,288.71,2857,Student,Mental health campaign launched
+12,Australia,2019,35-44,Female,12.27,228.76,3745,Unemployed,Mental health campaign launched
+13,Australia,2023,15-24,Male,9.82,305.55,1669,Unemployed,Mental health campaign launched
+14,Australia,2021,35-44,Male,10.09,318.78,4968,Student,
+15,Australia,2024,35-44,Female,9.6,285.42,1271,Student,
+16,Australia,2022,35-44,Male,9.59,392.61,2620,Retired,Mental health campaign launched
+17,Australia,2019,35-44,Male,11.95,247.11,4051,Unemployed,Mental health campaign launched
+18,Australia,2023,55-64,Female,15.29,238.96,2482,Retired,
+19,Australia,2019,55-64,Female,12.84,202.02,4095,Employed,
+20,Australia,2024,15-24,Male,6.69,309.84,4244,Unemployed,Mental health campaign launched
+21,Australia,2022,15-24,Female,14.95,308.57,3440,Retired,Mental health campaign launched
+22,Australia,2022,35-44,Male,11.54,284.94,3792,Employed,Mental health campaign launched
+23,Australia,2024,35-44,Male,6.09,264.01,2780,Student,
+24,Australia,2021,15-24,Female,14.77,352.86,3731,Unemployed,
+25,Australia,2024,55-64,Male,13.37,211.85,2531,Unemployed,
+26,Australia,2022,55-64,Male,13.3,280.75,3001,Student,
+27,Australia,2018,35-44,Female,9.29,330.58,1237,Unemployed,
+28,Australia,2022,15-24,Male,16.12,346.56,4342,Retired,
+29,Australia,2024,55-64,Male,8.64,284.54,3702,Unemployed,Mental health campaign launched
+30,Australia,2022,25-34,Female,13.33,348.78,4950,Retired,
+31,Australia,2022,25-34,Female,10.08,290.72,3751,Retired,Mental health campaign launched
+32,Australia,2021,55-64,Female,9.76,240.19,2525,Employed,Economic downturn
+33,Australia,2022,55-64,Male,15.25,367.81,1029,Unemployed,
+34,Australia,2023,15-24,Male,11.71,350.18,4708,Employed,
+35,Australia,2024,35-44,Male,13.45,267.74,2140,Unemployed,Mental health campaign launched
+36,Australia,2019,55-64,Male,13.45,376.9,1995,Retired,Mental health campaign launched
+37,Australia,2024,45-54,Male,11.86,378.23,1397,Employed,Mental health campaign launched
+38,Australia,2020,45-54,Female,5.54,341.1,5368,Retired,
+39,Australia,2018,15-24,Female,12.35,285.05,4279,Student,
+40,Australia,2019,25-34,Male,12.37,200.62,1574,Retired,Mental health campaign launched
+41,Australia,2019,35-44,Female,11.12,317.86,4581,Unemployed,
+42,Australia,2021,55-64,Male,22.42,274.09,4667,Employed,Mental health campaign launched
+43,Australia,2018,25-34,Male,8.77,274.91,2989,Retired,Mental health campaign launched
+44,Australia,2019,45-54,Male,15.66,316.44,2552,Unemployed,
+45,Australia,2021,35-44,Female,13.87,325.66,3481,Student,Mental health campaign launched
+46,Australia,2019,25-34,Female,12.39,348.43,4967,Unemployed,
+47,Australia,2022,55-64,Male,9.19,283.62,1234,Student,
+48,Australia,2022,45-54,Male,10.43,226.82,4935,Employed,
+49,Australia,2024,25-34,Male,13.18,313.05,3765,Employed,
+50,Australia,2021,15-24,Male,15.28,288.27,4334,Employed,
+51,Australia,2022,55-64,Female,6.34,278.97,1836,Student,Mental health campaign launched
+52,Australia,2019,35-44,Female,10.63,259.89,3751,Unemployed,Mental health campaign launched
+53,Australia,2021,35-44,Male,16.35,320.2,3428,Employed,Mental health campaign launched
+54,Australia,2018,55-64,Male,19.54,308.73,1542,Student,Mental health campaign launched
+55,Australia,2018,25-34,Female,13.03,296.28,1646,Student,Mental health campaign launched
+56,Australia,2024,55-64,Female,4.32,298.67,3735,Employed,Mental health campaign launched
+57,Australia,2023,15-24,Male,12.24,423.16,1472,Student,
+58,Australia,2023,55-64,Male,11.23,315.08,2154,Student,
+59,Australia,2023,35-44,Male,11.86,241.57,3070,Student,Mental health campaign launched
+60,Australia,2020,15-24,Male,18.7,337.6,5067,Retired,COVID lockdown
+61,Australia,2024,25-34,Female,15.16,254.53,4036,Unemployed,Mental health campaign launched
+62,Australia,2022,45-54,Male,17.61,229.91,1308,Employed,
+63,Australia,2022,15-24,Female,14.35,409.52,2760,Unemployed,
+64,Australia,2018,35-44,Female,8.04,271.69,4681,Employed,Mental health campaign launched
+65,Australia,2019,25-34,Male,12.4,274.83,4195,Student,Mental health campaign launched
+66,Australia,2022,25-34,Male,5.8,303.43,4998,Unemployed,
+67,Australia,2021,15-24,Male,12.16,323.68,5146,Student,Healthcare funding cuts
+68,Australia,2023,25-34,Female,8.32,377.5,4225,Unemployed,
+69,Australia,2021,15-24,Female,11.92,283.9,2737,Unemployed,Healthcare funding cuts
+70,Australia,2024,25-34,Male,15.25,238.46,3703,Employed,
+71,Australia,2021,35-44,Female,15.96,365.36,5720,Employed,COVID lockdown
+72,Australia,2021,55-64,Female,8.11,309.23,2464,Employed,COVID lockdown
+73,Australia,2020,15-24,Male,16.35,339.09,3176,Retired,COVID lockdown
+74,Australia,2018,45-54,Male,7.05,233.98,1181,Student,Mental health campaign launched
+75,Australia,2018,55-64,Male,14.09,314.85,2766,Student,
+76,Australia,2023,35-44,Female,13,317.32,3948,Employed,Mental health campaign launched
+77,Australia,2022,35-44,Female,9.28,311.61,2648,Student,Mental health campaign launched
+78,Australia,2022,25-34,Male,13.17,264.28,3723,Retired,Mental health campaign launched
+79,Australia,2023,25-34,Female,19.46,323.69,3244,Retired,
+80,Australia,2020,35-44,Male,11.05,332.83,4882,Retired,Mental health campaign launched
+81,Australia,2021,45-54,Female,12.48,339.35,4084,Unemployed,Healthcare funding cuts
+82,Australia,2024,25-34,Male,16.63,258.97,3111,Student,Mental health campaign launched
+83,Australia,2018,25-34,Female,15.85,320.64,4303,Unemployed,
+84,Australia,2019,15-24,Male,15.29,394.84,2946,Unemployed,
+85,Australia,2021,45-54,Male,13.75,262.31,3859,Retired,Healthcare funding cuts
+86,Australia,2023,15-24,Male,8.44,259.21,1896,Retired,
+87,Australia,2024,55-64,Female,11.69,317.06,3283,Employed,
+88,Australia,2024,15-24,Female,13.11,341.36,4282,Unemployed,Mental health campaign launched
+89,Australia,2023,55-64,Female,12.05,372.68,3509,Retired,Mental health campaign launched
+90,Australia,2024,55-64,Female,10.94,436.01,4046,Unemployed,Mental health campaign launched
+91,Australia,2021,35-44,Male,17.95,257.14,4758,Student,Mental health campaign launched
+92,Australia,2020,45-54,Male,10.73,324.12,2917,Student,COVID lockdown
+93,Australia,2022,15-24,Male,11.11,335.7,1947,Unemployed,Mental health campaign launched
+94,Australia,2023,25-34,Male,13.89,296.36,2699,Employed,Mental health campaign launched
+95,Australia,2020,55-64,Female,13.11,224.26,1954,Retired,Economic downturn
+96,Australia,2024,55-64,Male,10.21,342.82,2953,Retired,
+97,Australia,2020,35-44,Female,17.26,237.71,4163,Retired,Mental health campaign launched
+98,Australia,2019,45-54,Male,12.69,319.27,2785,Student,Mental health campaign launched
+99,Australia,2018,45-54,Female,8.46,307.69,3966,Retired,
+100,Australia,2024,45-54,Male,12.23,242.85,4714,Employed,Mental health campaign launched

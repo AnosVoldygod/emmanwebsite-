@@ -1,11 +1,11 @@
 <script setup>
 import { getAuth, signOut } from 'firebase/auth'
-import { useRouter } from 'vue-router'
+// import { useRouter } from 'vue-router'
 import { ref, onMounted } from 'vue'
 import SideBarNav from './SideBarNav.vue'
 
 const auth = getAuth()
-const router = useRouter()
+// const router = useRouter()
 const loginStatus = ref(false)
 
 const logout = () => {
@@ -56,6 +56,9 @@ onMounted(() => {
 
       <li class="nav-item">
         <RouterLink class="nav-icon" to="/about">About</RouterLink>
+      </li>
+      <li class="nav-item">
+        <RouterLink class="nav-icon" to="/Projects">Projects</RouterLink>
       </li>
       <li class="nav-item">
         <RouterLink class="nav-icon" to="/hobbies">Hobbies</RouterLink>
