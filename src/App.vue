@@ -44,12 +44,11 @@ body {
   height: 50px;
   width: 100%;
   backdrop-filter: blur(3px);
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .content {
-  padding-top: 50px; /* top bar */
-  padding-bottom: 30px; /* bottom bar */
+  padding-top: 50px;
+  padding-bottom: 30px;
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -61,7 +60,6 @@ body {
   width: 100%;
   height: 30px;
   backdrop-filter: blur(3px);
-  background-color: rgba(0, 0, 0, 0);
   overflow: hidden;
   box-sizing: border-box;
 }
