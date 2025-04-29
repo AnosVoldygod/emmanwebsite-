@@ -5,6 +5,7 @@ import Hobbies from '../views/Hobbies.vue'
 import Login from '../views/Login.vue'
 import FosterDogs from '../views/nested/FosterDogs.vue'
 import Projects from '../views/Projects.vue'
+import AJuniorDataEngineerView from '../views/nested/AJuniorDataEngineerView.vue'
 import { isAuthenticated } from './auth.js'
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
   { path: '/hobbies', name: 'Hobbies', component: Hobbies },
   { path: '/Login', name: 'Login', component: Login },
   { path: '/Projects', name: 'Projects', component: Projects },
+  {
+    path: '/Projects/dataEngineerProjectA',
+    name: 'AJuniorDataEngineerView',
+    component: AJuniorDataEngineerView,
+  },
 ]
 
 const router = createRouter({

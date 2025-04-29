@@ -1,17 +1,21 @@
-<script setup></script>
+<script setup>
+import HomeMain from '../components/Home/HomeMain.vue'
+</script>
 
 <template>
   <div class="home-wrapper">
-    <div class="visual-content"></div>
-    <div class="information-content"></div>
+    <div class="home-main-content"><HomeMain /></div>
   </div>
 </template>
 
 <style scoped>
 .home-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100%;
-  background: linear-gradient(135deg, #000000, #333232);
   color: rgb(238, 209, 209);
+  min-height: 100%;
   letter-spacing: 2px;
 }
 </style>

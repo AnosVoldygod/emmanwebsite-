@@ -31,15 +31,12 @@
 
 <script setup>
 const files = [
-  { name: 'suicide_rates.csv', link: 'src/assets/csv/suicide_rates_data.csv' },
-  { name: 'mental_health_funding.csv', link: 'src/assets/csv/mental_health_funding.csv' },
-  {
-    name: 'reported_mental_health_issues.csv',
-    link: 'src/assets/csv/reported_mental_health_issues.csv',
-  },
-  { name: 'employment_status.csv', link: 'src/assets/csv/employment_status.csv' },
-  { name: 'demographics.csv', link: 'src/assets/csv/demographics.csv' },
-  { name: 'regional.csv', link: 'src/assets/csv/regional.csv' },
+  { name: 'suicide_rates.csv', link: '/csv/suicide_rates_data.csv' },
+  { name: 'mental_health_funding.csv', link: '/csv/mental_health_funding.csv' },
+  { name: 'reported_mental_health_issues.csv', link: '/csv/reported_mental_health_issues.csv' },
+  { name: 'employment_status.csv', link: '/csv/employment_status.csv' },
+  { name: 'demographics.csv', link: '/csv/demographics.csv' },
+  { name: 'regional.csv', link: '/csv/regional.csv' },
 ]
 </script>
 
