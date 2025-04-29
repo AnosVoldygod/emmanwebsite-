@@ -18,7 +18,7 @@ import LoginMessage from '../components/Login/LoginMessage.vue'
 <style scoped>
 .login-wrapper-main {
   display: flex;
-  height: 100%;
+  min-height: 100%;
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #000000, #333232);

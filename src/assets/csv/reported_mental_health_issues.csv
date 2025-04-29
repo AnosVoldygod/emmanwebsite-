@@ -1,0 +1,201 @@
+year,age_group,reported_cases,location,gender
+2018,B,22508,Queensland,f
+2020,C,22969,Australian Capital Territory,f
+2011,A,46659,Tasmania,m
+2018,F,38545,Australian Capital Territory,m
+2018,D,37668,New South Wales,m
+2013,C,24061,Tasmania,f
+2015,E,14716,Northern Territory,f
+2015,A,40749,South Australia,f
+2020,F,40144,New South Wales,f
+2012,E,17907,Victoria,m
+2013,A,19777,Northern Territory,m
+2011,C,28693,Tasmania,f
+2012,A,43928,Queensland,m
+2014,B,27329,New South Wales,m
+2013,C,47892,Queensland,m
+2012,D,17282,Australian Capital Territory,m
+2019,E,24624,New South Wales,f
+2012,B,24321,Queensland,f
+2020,D,11488,Victoria,f
+2011,A,23574,Western Australia,m
+2012,B,6240,Tasmania,m
+2020,D,44221,Tasmania,f
+2017,C,11478,Northern Territory,f
+2017,A,46162,New South Wales,m
+2019,D,20262,Queensland,f
+2019,A,5432,Australian Capital Territory,f
+2017,D,30721,Tasmania,f
+2020,E,14568,Tasmania,f
+2019,C,15178,Australian Capital Territory,f
+2020,B,23195,Victoria,f
+2020,D,1302,Queensland,m
+2019,A,18022,Tasmania,f
+2015,C,1055,Northern Territory,f
+2020,B,46781,Tasmania,m
+2015,A,9717,South Australia,f
+2012,C,29699,Western Australia,f
+2017,A,9150,Victoria,m
+2011,F,3125,New South Wales,f
+2017,F,45247,Queensland,f
+2017,C,49513,Australian Capital Territory,m
+2020,B,17748,Northern Territory,m
+2014,B,40577,Victoria,f
+2014,A,5621,South Australia,m
+2019,C,16034,South Australia,f
+2010,D,47391,Australian Capital Territory,m
+2015,F,6126,Western Australia,m
+2018,B,6122,South Australia,m
+2011,F,19030,Australian Capital Territory,m
+2014,D,18302,Western Australia,m
+2017,D,20181,Victoria,m
+2017,E,39638,Queensland,f
+2010,A,2531,Victoria,f
+2010,A,41940,Australian Capital Territory,f
+2015,A,41441,Queensland,m
+2014,C,24333,Australian Capital Territory,f
+2011,B,40650,Victoria,m
+2020,B,35674,Tasmania,f
+2011,E,36854,Tasmania,f
+2019,F,47271,Victoria,m
+2019,E,9152,South Australia,m
+2018,E,39518,South Australia,m
+2016,D,46540,Queensland,f
+2017,A,11267,Queensland,f
+2019,C,26289,Tasmania,f
+2018,B,2062,Western Australia,f
+2010,C,30926,Victoria,m
+2017,A,7229,Western Australia,f
+2019,A,48915,Queensland,f
+2020,B,5632,Western Australia,f
+2013,D,40056,Australian Capital Territory,f
+2015,F,4596,New South Wales,f
+2019,E,45243,Tasmania,m
+2017,D,7168,Tasmania,m
+2018,A,43563,Australian Capital Territory,f
+2012,A,8561,Queensland,f
+2010,D,9258,Victoria,m
+2017,E,17616,Victoria,f
+2011,E,27734,South Australia,f
+2015,A,7371,Northern Territory,m
+2011,F,27069,Australian Capital Territory,f
+2018,E,15369,Northern Territory,f
+2020,E,13910,Northern Territory,f
+2012,B,8943,Victoria,f
+2010,F,13199,Queensland,f
+2013,B,16728,Tasmania,f
+2017,C,24275,Victoria,m
+2017,D,7738,Australian Capital Territory,f
+2018,A,16913,Australian Capital Territory,f
+2018,E,36240,Tasmania,f
+2019,C,20123,Queensland,m
+2012,B,49447,Queensland,f
+2015,E,35529,Queensland,m
+2015,D,11167,Northern Territory,f
+2014,B,11554,New South Wales,m
+2016,F,18260,Victoria,f
+2016,F,48045,Queensland,f
+2015,A,4812,South Australia,f
+2020,E,29024,Queensland,f
+2019,C,28285,Queensland,m
+2010,A,27900,Tasmania,m
+2020,E,2605,Western Australia,f
+2020,E,6622,Tasmania,f
+2015,E,7767,South Australia,m
+2011,E,28139,Victoria,m
+2015,E,12613,South Australia,m
+2011,A,11589,Western Australia,m
+2018,D,14918,South Australia,m
+2020,D,21119,Queensland,m
+2016,A,28446,South Australia,m
+2014,F,14046,Victoria,m
+2014,D,25818,Queensland,m
+2020,C,36358,Queensland,f
+2019,C,5324,Queensland,f
+2012,F,11787,Tasmania,f
+2015,A,10111,New South Wales,m
+2011,C,39110,New South Wales,m
+2019,A,17389,Victoria,m
+2020,C,42427,New South Wales,m
+2012,B,15043,South Australia,f
+2015,F,29746,Western Australia,f
+2014,F,23350,Northern Territory,f
+2020,F,42605,New South Wales,m
+2020,A,1117,Australian Capital Territory,f
+2016,E,47685,South Australia,f
+2012,F,19935,South Australia,f
+2019,C,48077,Australian Capital Territory,m
+2011,B,14234,Western Australia,m
+2014,A,39328,Northern Territory,m
+2018,C,1846,South Australia,m
+2016,E,11954,Australian Capital Territory,m
+2020,C,14703,Victoria,f
+2015,F,49153,New South Wales,m
+2012,B,47514,Queensland,m
+2020,F,23700,Australian Capital Territory,f
+2020,D,33043,Northern Territory,f
+2018,F,7469,Australian Capital Territory,m
+2011,D,31105,Australian Capital Territory,f
+2020,F,43101,Western Australia,m
+2020,B,27386,Tasmania,m
+2016,B,46587,Queensland,f
+2018,A,37976,Tasmania,m
+2015,F,40051,Tasmania,f
+2010,D,3048,Tasmania,f
+2015,A,40001,Northern Territory,f
+2014,C,13941,Queensland,f
+2012,B,46375,Tasmania,m
+2013,A,43533,Victoria,f
+2015,B,2828,Tasmania,f
+2017,A,2917,Western Australia,m
+2013,C,21618,Australian Capital Territory,m
+2013,C,33254,Victoria,f
+2012,E,40756,South Australia,m
+2012,D,48362,Australian Capital Territory,f
+2011,E,21128,Western Australia,f
+2014,D,46745,Queensland,m
+2011,C,1009,Victoria,m
+2018,A,17644,New South Wales,f
+2018,F,23422,South Australia,f
+2018,B,10865,Northern Territory,m
+2010,C,3219,Northern Territory,m
+2020,C,40809,Western Australia,f
+2015,A,6287,Queensland,f
+2019,F,35387,Tasmania,f
+2012,C,9512,Tasmania,m
+2019,C,2342,Western Australia,f
+2016,A,44336,Queensland,m
+2012,C,20216,Australian Capital Territory,m
+2012,D,28534,Australian Capital Territory,m
+2012,D,15231,Australian Capital Territory,f
+2019,F,33293,South Australia,f
+2012,D,27614,Australian Capital Territory,m
+2017,D,37258,New South Wales,m
+2010,C,29253,Victoria,f
+2016,B,43078,Northern Territory,f
+2015,D,41752,Australian Capital Territory,m
+2020,F,18988,Western Australia,f
+2013,D,32037,Western Australia,f
+2017,C,13219,Tasmania,f
+2019,E,1235,New South Wales,f
+2014,C,43929,New South Wales,m
+2017,A,2908,South Australia,f
+2013,F,9567,Australian Capital Territory,f
+2018,D,37298,Australian Capital Territory,m
+2013,A,6256,South Australia,m
+2014,D,20019,New South Wales,m
+2017,E,9162,Victoria,f
+2013,B,6415,Northern Territory,f
+2015,E,37159,Queensland,m
+2020,C,44925,South Australia,f
+2019,C,6951,Tasmania,f
+2017,A,22852,Northern Territory,m
+2017,A,9007,Tasmania,f
+2014,C,42832,New South Wales,f
+2016,F,31523,Northern Territory,m
+2018,C,24325,New South Wales,m
+2018,C,22204,Western Australia,m
+2016,D,16524,Tasmania,f
+2012,E,20282,South Australia,m
+2013,F,24930,Victoria,f
+2019,D,1077,Northern Territory,f

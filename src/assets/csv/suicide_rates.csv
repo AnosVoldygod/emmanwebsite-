@@ -1,0 +1,201 @@
+year,age_group,gender,suicide_rate,location,employment_status
+2020,D,Male,14.36,Australian Capital Territory,Employed
+2011,B,Female,28.77,New South Wales,Employed
+2010,E,Male,23.3,Tasmania,Unemployed
+2014,F,Male,19.97,South Australia,Unemployed
+2013,F,Male,8.9,Northern Territory,Student
+2013,B,Female,8.9,Northern Territory,Employed
+2012,F,Female,6.45,Western Australia,Unemployed
+2011,C,Male,26.65,Australian Capital Territory,Unemployed
+2020,D,Female,20.03,Western Australia,Unemployed
+2018,F,Male,22.7,South Australia,Employed
+2011,F,Female,5.51,Northern Territory,Unemployed
+2019,C,Female,29.25,Australian Capital Territory,Employed
+2016,D,Female,25.81,New South Wales,Retired
+2010,E,Male,10.31,Northern Territory,Retired
+2010,D,Male,9.55,Tasmania,Retired
+2011,A,Female,9.59,Northern Territory,Student
+2013,B,Female,12.61,Queensland,Employed
+2013,B,Male,18.12,Australian Capital Territory,Unemployed
+2018,A,Male,15.8,Queensland,Student
+2019,C,Female,12.28,New South Wales,Student
+2010,A,Male,20.3,Northern Territory,Retired
+2018,E,Female,8.49,New South Wales,Employed
+2013,E,Male,12.3,Victoria,Unemployed
+2020,B,Female,14.16,Northern Territory,Student
+2018,E,Female,16.4,Queensland,Unemployed
+2016,B,Male,24.63,Australian Capital Territory,Retired
+2013,A,Male,9.99,Queensland,Employed
+2017,A,Male,17.86,New South Wales,Unemployed
+2019,F,Male,19.81,South Australia,Unemployed
+2014,F,Male,6.16,Northern Territory,Student
+2010,A,Female,20.19,Tasmania,Unemployed
+2012,B,Male,9.26,Western Australia,Employed
+2016,A,Female,6.63,Australian Capital Territory,Employed
+2015,A,Male,28.72,Tasmania,Unemployed
+2014,C,Male,29.14,Tasmania,Student
+2012,A,Female,25.21,Northern Territory,Student
+2013,E,Female,12.62,South Australia,Retired
+2015,B,Male,7.44,Northern Territory,Employed
+2011,C,Female,22.11,South Australia,Retired
+2011,F,Male,16,Victoria,Student
+2016,D,Male,8.05,Australian Capital Territory,Retired
+2011,B,Male,17.38,New South Wales,Student
+2015,E,Female,5.86,New South Wales,Retired
+2015,B,Female,27.73,Tasmania,Retired
+2019,F,Male,11.47,Western Australia,Employed
+2014,E,Male,21.56,Victoria,Employed
+2010,E,Male,12.79,New South Wales,Retired
+2017,D,Male,18,New South Wales,Student
+2018,B,Female,18.67,Western Australia,Student
+2011,D,Male,9.62,Western Australia,Employed
+2016,D,Male,29.24,New South Wales,Employed
+2011,B,Female,24.38,Queensland,Unemployed
+2018,A,Female,28.49,Western Australia,Employed
+2014,A,Male,27.37,Queensland,Student
+2020,F,Female,19.95,Australian Capital Territory,Employed
+2019,D,Male,28.05,Victoria,Unemployed
+2015,C,Male,7.21,Western Australia,Retired
+2019,D,Female,9.9,Australian Capital Territory,Retired
+2013,D,Male,6.13,South Australia,Student
+2011,D,Female,13.13,Tasmania,Unemployed
+2010,F,Male,14.72,Queensland,Retired
+2020,A,Male,11.78,Victoria,Retired
+2013,F,Female,25.72,Queensland,Employed
+2014,F,Female,13.92,South Australia,Retired
+2011,F,Female,12.02,Victoria,Student
+2013,A,Male,18.57,New South Wales,Retired
+2011,A,Male,8.52,South Australia,Student
+2016,D,Male,25.05,Northern Territory,Student
+2014,F,Male,6.86,Northern Territory,Employed
+2017,C,Female,29.67,Western Australia,Unemployed
+2020,A,Female,24.31,Victoria,Student
+2015,B,Female,9.97,Western Australia,Retired
+2012,B,Male,5.14,Victoria,Retired
+2015,B,Female,25.39,South Australia,Student
+2015,E,Female,22.67,Victoria,Retired
+2013,D,Female,23.23,New South Wales,Employed
+2020,B,Female,24.28,Tasmania,Retired
+2014,D,Male,6.85,Northern Territory,Employed
+2020,B,Male,13.96,Tasmania,Student
+2020,C,Female,7.9,Victoria,Student
+2011,D,Male,26.58,Tasmania,Student
+2019,B,Female,20.58,New South Wales,Employed
+2020,A,Male,13.27,Northern Territory,Retired
+2012,D,Male,6.59,Australian Capital Territory,Employed
+2018,E,Female,12.77,Victoria,Retired
+2013,A,Female,13.13,Northern Territory,Retired
+2012,A,Female,23.24,Tasmania,Employed
+2017,F,Female,20.94,Australian Capital Territory,Unemployed
+2016,E,Male,27.18,Queensland,Student
+2014,A,Female,16.81,Northern Territory,Retired
+2020,A,Male,7.99,Queensland,Retired
+2018,B,Female,22.83,South Australia,Employed
+2013,B,Male,24.02,Australian Capital Territory,Unemployed
+2020,D,Female,19.03,Australian Capital Territory,Student
+2015,D,Male,24.27,Northern Territory,Unemployed
+2010,D,Male,17.34,South Australia,Student
+2013,B,Female,18.07,Tasmania,Retired
+2010,D,Female,15.69,Western Australia,Retired
+2015,A,Male,5.64,Victoria,Employed
+2016,B,Female,7.7,South Australia,Employed
+2014,D,Female,5.79,Australian Capital Territory,Unemployed
+2011,A,Male,20.91,Western Australia,Unemployed
+2013,D,Female,12.86,Australian Capital Territory,Student
+2019,C,Female,17.71,Northern Territory,Employed
+2015,D,Female,27.69,Tasmania,Retired
+2013,C,Female,11.23,New South Wales,Employed
+2020,D,Female,15.26,Australian Capital Territory,Unemployed
+2017,F,Female,23.89,Tasmania,Employed
+2016,F,Male,10.72,Queensland,Retired
+2020,E,Male,6.92,Australian Capital Territory,Employed
+2017,F,Female,12.24,Western Australia,Unemployed
+2012,F,Female,9.03,Tasmania,Retired
+2014,D,Male,28.24,South Australia,Student
+2012,B,Female,25.2,Tasmania,Student
+2013,B,Female,20.84,South Australia,Retired
+2018,C,Male,26.79,South Australia,Retired
+2018,B,Female,25.09,New South Wales,Retired
+2014,A,Female,9.66,Western Australia,Unemployed
+2019,E,Male,27.31,Victoria,Retired
+2016,F,Female,18.48,Western Australia,Unemployed
+2019,E,Female,25.19,Northern Territory,Retired
+2016,A,Female,27.4,Australian Capital Territory,Unemployed
+2015,F,Female,12.95,Western Australia,Unemployed
+2013,C,Female,7.75,Australian Capital Territory,Employed
+2012,A,Male,10.7,Australian Capital Territory,Student
+2018,A,Female,15.68,Australian Capital Territory,Retired
+2017,E,Male,25.45,New South Wales,Student
+2011,D,Male,26.52,Victoria,Student
+2010,E,Female,5.17,South Australia,Employed
+2011,E,Female,17.77,Western Australia,Student
+2012,B,Male,15.44,Northern Territory,Student
+2020,A,Male,10.55,Western Australia,Retired
+2012,E,Female,8,South Australia,Unemployed
+2020,A,Male,13.44,Tasmania,Retired
+2016,B,Male,28.57,Australian Capital Territory,Retired
+2019,A,Male,13.08,Tasmania,Student
+2011,E,Male,17.97,Northern Territory,Student
+2016,A,Male,22.58,Tasmania,Retired
+2016,F,Male,14.09,Tasmania,Retired
+2019,B,Female,29.29,Australian Capital Territory,Student
+2017,D,Male,29.06,South Australia,Unemployed
+2018,A,Female,11.29,South Australia,Unemployed
+2014,E,Female,17.43,South Australia,Retired
+2018,B,Male,12.52,Western Australia,Unemployed
+2010,E,Female,12.12,Victoria,Retired
+2020,E,Female,5.92,Western Australia,Employed
+2011,A,Female,20.24,Tasmania,Student
+2020,E,Male,17.57,Victoria,Retired
+2018,A,Male,6.29,Queensland,Retired
+2014,D,Male,11.97,Western Australia,Retired
+2020,F,Male,27.71,Western Australia,Unemployed
+2015,E,Female,10.99,Australian Capital Territory,Retired
+2011,E,Male,8.62,South Australia,Employed
+2014,E,Male,17.24,South Australia,Unemployed
+2016,C,Female,29.64,Victoria,Student
+2012,C,Male,11.05,Western Australia,Employed
+2017,B,Male,21.8,South Australia,Retired
+2010,F,Male,24.04,Western Australia,Employed
+2014,F,Female,10.94,Tasmania,Retired
+2018,C,Male,23.21,Queensland,Employed
+2012,B,Female,14.19,South Australia,Unemployed
+2018,C,Female,20.81,New South Wales,Retired
+2011,D,Female,20.84,Queensland,Unemployed
+2020,B,Female,18.39,South Australia,Employed
+2014,F,Female,7.26,New South Wales,Retired
+2020,F,Male,25.88,New South Wales,Student
+2018,C,Female,13.02,South Australia,Student
+2019,D,Female,9.66,Queensland,Retired
+2013,C,Female,6.02,Australian Capital Territory,Employed
+2012,A,Male,19.77,Victoria,Student
+2015,A,Female,21.94,New South Wales,Retired
+2012,D,Female,5.41,South Australia,Student
+2018,E,Male,17.8,Australian Capital Territory,Retired
+2018,E,Female,10.66,Australian Capital Territory,Employed
+2010,A,Female,21.13,Australian Capital Territory,Employed
+2019,A,Male,9.36,Tasmania,Unemployed
+2015,E,Female,22.27,Queensland,Student
+2017,B,Male,14.67,New South Wales,Unemployed
+2010,E,Female,28.42,South Australia,Employed
+2011,C,Female,8.44,Australian Capital Territory,Retired
+2015,B,Female,13.53,Victoria,Employed
+2014,C,Male,7.84,Victoria,Employed
+2013,A,Male,28.12,Northern Territory,Retired
+2010,B,Male,26.93,Australian Capital Territory,Unemployed
+2013,C,Male,11.45,Victoria,Student
+2019,C,Female,21.5,New South Wales,Employed
+2011,B,Male,25.43,Queensland,Employed
+2011,D,Male,18.88,Queensland,Student
+2017,E,Male,18.24,South Australia,Employed
+2011,F,Female,11.05,Victoria,Student
+2018,C,Female,7.33,Western Australia,Student
+2012,E,Female,27.43,Victoria,Student
+2012,F,Female,27.51,Northern Territory,Retired
+2020,E,Female,20.83,Western Australia,Unemployed
+2017,A,Male,13.48,Northern Territory,Unemployed
+2018,F,Male,13.73,Australian Capital Territory,Retired
+2012,E,Female,23.15,Australian Capital Territory,Unemployed
+2014,C,Female,27.43,South Australia,Unemployed
+2018,F,Male,27.18,Northern Territory,Unemployed
+2019,A,Female,24.5,South Australia,Employed

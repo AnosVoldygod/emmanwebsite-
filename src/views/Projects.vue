@@ -1,8 +1,8 @@
 <script setup>
 import ProjectIntroduction from '../components/Projects/AJuniorDataEngineer/ProjectIntroduction.vue'
-import RawData from '../components/Projects/AJuniorDataEngineer/RawData.vue'
-import CleanData from '../components/Projects/AJuniorDataEngineer/CleanData.vue'
-import ProjectConclusion from '../components/Projects/AJuniorDataEngineer/ProjectConclusion.vue'
+import Conclusion from '../components/Projects/AJuniorDataEngineer/Conclusion.vue'
+import Normalization from '../components/Projects/AJuniorDataEngineer/Normalization.vue'
+import DataBaseOverview from '../components/Projects/AJuniorDataEngineer/DataBaseOverview.vue'
 </script>
 
 <template>
@@ -11,13 +11,13 @@ import ProjectConclusion from '../components/Projects/AJuniorDataEngineer/Projec
       <ProjectIntroduction />
     </div>
     <div class="raw-data-container">
-      <RawData />
+      <Normalization />
     </div>
     <div class="clean-data-container">
-      <CleanData />
+      <DataBaseOverview />
     </div>
     <div class="conclusion-container">
-      <ProjectConclusion />
+      <Conclusion />
     </div>
   </div>
 </template>
@@ -27,10 +27,11 @@ import ProjectConclusion from '../components/Projects/AJuniorDataEngineer/Projec
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #000000, #333232);
   color: rgb(238, 209, 209);
   letter-spacing: 2px;
+  padding-bottom: 30px;
 }
 </style>
