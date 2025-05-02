@@ -19,9 +19,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-
   background: linear-gradient(135deg, #000000, #333232);
-  min-height: calc(100vh - 80px);
+  height: calc(100vh - 80px);
   min-width: 100vw;
 }
 

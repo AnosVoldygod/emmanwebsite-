@@ -31,7 +31,7 @@
 
 <script setup>
 const files = [
-  { name: 'suicide_rates.csv', link: '/csv/suicide_rates_data.csv' },
+  { name: 'suicide_rates.csv', link: '/csv/suicide_rates.csv' },
   { name: 'mental_health_funding.csv', link: '/csv/mental_health_funding.csv' },
   { name: 'reported_mental_health_issues.csv', link: '/csv/reported_mental_health_issues.csv' },
   { name: 'employment_status.csv', link: '/csv/employment_status.csv' },

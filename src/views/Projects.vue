@@ -27,7 +27,6 @@ import AJuniorDataEngineerView from './nested/AJuniorDataEngineerView.vue'
             P: Password1@
           </p>
         </div>
-        s
       </a>
     </div>
   </div>
