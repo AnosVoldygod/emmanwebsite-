@@ -33,8 +33,9 @@ onMounted(() => {
 
 <template>
   <nav class="nav-container">
+    <!-- SIDE BAR IS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <nav v-if="displaySidebar" class="side-bar-nav">
-      <SideBarNav @toggleSidebar="toggleSidebar" />
+      <SideBarNav @toggleSidebar="toggleSidebar" @logout="logout" />
     </nav>
     <ul class="nav-list">
       <li @click="toggleSidebar()" class="nav-item">

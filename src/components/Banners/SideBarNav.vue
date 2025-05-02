@@ -1,21 +1,10 @@
 <script setup>
-import { getAuth, signOut } from 'firebase/auth'
-import { useRouter } from 'vue-router'
-const emit = defineEmits(['toggleSidebar'])
-
-const auth = getAuth()
-const router = useRouter()
-const logout = () => {
-  signOut(auth)
-    .then(() => {
-      console.log('User signed out')
-      localStorage.setItem('isLoggedIn', false)
-      router.push('/login')
-    })
-    .catch((error) => {
-      console.error('Sign-out error:', error)
-    })
-}
+import { ref, onMounted } from 'vue'
+const emit = defineEmits(['toggleSidebar'], ['logout'])
+onMounted(() => {
+  loginStatus.value = localStorage.getItem('isLoggedIn') === 'true'
+})
+const loginStatus = ref(false)
 </script>
 
 <template>
@@ -37,15 +26,23 @@ const logout = () => {
         </div>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-icon" to="/login" @click="emit('toggleSidebar')">Login</RouterLink>
-      </li>
-      <li class="nav-item">
         <RouterLink class="nav-icon" to="/about" @click="emit('toggleSidebar')">About</RouterLink>
       </li>
       <li class="nav-item">
-        <RouterLink class="nav-icon" to="/forfun" @click="emit('toggleSidebar')"
-          >For Fun</RouterLink
+        <RouterLink class="nav-icon" to="/Projects" @click="emit('toggleSidebar')"
+          >Projects</RouterLink
         >
+      </li>
+      <li class="nav-item">
+        <RouterLink class="nav-icon" to="/hobbies" @click="emit('toggleSidebar')"
+          >Hobbies</RouterLink
+        >
+      </li>
+      <li class="nav-item" v-if="!loginStatus">
+        <RouterLink class="nav-icon" to="/login">Login</RouterLink>
+      </li>
+      <li class="nav-item" @click="emit('logout')" v-if="loginStatus">
+        <RouterLink class="nav-icon" to="/login">Logout</RouterLink>
       </li>
     </ul>
   </nav>
