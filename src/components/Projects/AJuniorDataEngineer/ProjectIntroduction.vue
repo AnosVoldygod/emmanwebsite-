@@ -1,19 +1,24 @@
 <template>
   <div class="project-summary">
-    <h1 class="heading">Mental Health Data Analysis Project</h1>
+    <h1 class="heading">Mental Health Data Engineering Project</h1>
     <p class="description">
-      This project explores, cleans, normalizes, and models datasets related to suicide rates and
-      potential influencing factors including mental health funding, reported mental health issues,
-      age groups, employment status, and demographics. Using PostgreSQL, the data is structured into
-      a relational model to enable deeper trend analysis and correlation studies. The aim is to
-      build a robust database that supports meaningful insights into how different social, economic,
-      and demographic variables potentially impact suicide rates across different regions and time
-      periods.
+      This project simulates a real-world data engineering workflow by exploring, cleaning, and
+      modeling datasets related to suicide rates and potential influencing factors such as mental
+      health funding, reported mental health issues, demographics, and employment status. The data
+      is ingested and structured using PostgreSQL, with raw and transformed schemas enabling
+      targeted analysis.
     </p>
     <p class="description">
-      The project includes creating normalized database tables, setting up relationships through
-      primary and foreign keys, cleaning data to ensure consistency and accuracy, and preparing for
-      advanced querying and visual analysis.
+      Using SQL joins, aggregation, and filtering, the project investigates the relationship between
+      funding per capita and suicide rates—split by gender and region—while acknowledging the
+      synthetic nature of the dataset. The backend is powered by Firebase Cloud Functions (v2) and
+      exposed through a secure API, which is consumed by a Vue.js frontend for interactive
+      visualization.
+    </p>
+    <p class="description">
+      The goal is not to produce definitive insights, but to demonstrate proficiency across the full
+      data pipeline—from ingestion and normalization to API integration and
+      visualization—highlighting the engineering process behind data-driven applications.
     </p>
 
     <div class="file-grid">
