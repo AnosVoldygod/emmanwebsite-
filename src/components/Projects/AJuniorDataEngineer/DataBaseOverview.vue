@@ -75,25 +75,37 @@ ORDER BY f.year;
         </div>
       </div>
     </div>
+    <h2 class="section-heading">Findings summary</h2>
 
     <p class="description">
       However, upon inspection of the resulting table, inconsistencies became apparent. For example,
       two records may share the same <code>year</code>, <code>location</code>,
       <code>age_group</code>, and <code>gender</code> effectively a simplified compound key yet
       report different <code>funding_per_capita</code> values despite having identical
-      <code>suicide_rate</code> entries. This clearly violates logical expectations, as funding per
-      capita should be constant across a given region and year.
+      <code>suicide_rate</code> entries. This clearly does not follow logical expectations, as
+      funding per capita should be constant across a given region, year, age group and gender (only
+      two genders were used for simplicity, not as a result of discrimination). This suggests a flaw
+      in the AI-generated data.
     </p>
-
+    <h2 class="section-heading">Proposed action going forward</h2>
     <p class="description">
-      This suggests a flaw in the AI-generated data. In a real-world scenario, I would begin by
-      auditing each data transformation step to rule out processing errors on my end. If my process
-      was sound, I would escalate the issue for clarification particularly checking:
+      In a real-world scenario, I would begin by auditing each data transformation step to rule out
+      processing errors on my end. If my process was sound, I would escalate the issue for
+      clarification particularly checking:
     </p>
 
     <ul class="points">
-      <li>Whether the original dataset had finer granularity (e.g., smaller age group ranges),</li>
+      <li>
+        Whether the original dataset captured age groups with more granularity (e.g., 5-year
+        intervals instead of the current 10-year bands), which could explain the apparent
+        duplication.
+      </li>
       <li>Whether rows were mistakenly duplicated or misaligned during aggregation.</li>
+      <li>
+        Confirmation on whether the 'gender' field refers strictly to binary sex or includes other
+        identities (e.g., non-binary). If the latter, further granularity may be required to ensure
+        accurate representation in analysis and joins.
+      </li>
     </ul>
 
     <p class="description">
@@ -174,5 +186,12 @@ const rowIndex = (row) =>
 }
 .points li {
   margin-bottom: 10px;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 </style>
