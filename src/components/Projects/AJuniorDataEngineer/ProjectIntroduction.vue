@@ -49,33 +49,50 @@ const files = [
 .project-summary {
   padding: 20px;
   font-family: Arial, sans-serif;
+
+  margin: 0 auto;
 }
+
 .heading {
   font-size: 2rem;
   margin-bottom: 10px;
 }
+
 .description {
   margin-bottom: 20px;
+  line-height: 1.6;
 }
+
 .file-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 15px;
 }
+
 .file-box {
   background: #f3f3f3;
   border-radius: 10px;
   text-align: center;
   padding: 20px;
-  transition: background 0.3s;
+  transition:
+    background 0.3s,
+    transform 0.2s;
+  cursor: pointer;
 }
+
 .file-box:hover {
   background: #d3e0ea;
+  transform: translateY(-2px);
 }
+
 .file-content h3 {
   margin: 0 0 10px 0;
-  font-size: 14px;
+  font-size: clamp(0.8rem, 3vw, 1.1rem); /* Responsive text size */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
 }
+
 .file-content p {
   margin: 0;
   font-size: 0.9rem;

@@ -48,20 +48,27 @@
 
 <style scoped>
 .workflow {
-  padding: 20px;
+  padding: 20px 10px; /* Responsive horizontal padding */
   font-family: Arial, sans-serif;
+
+  margin: 0 auto;
 }
+
 .subheading {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-top: 30px;
-  margin-bottom: 10px;
-}
-.workflow-list {
-  margin-left: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
+
+.workflow-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
 .workflow-list li {
   margin-bottom: 15px;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 1rem;
 }
 </style>
